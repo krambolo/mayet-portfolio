@@ -34,6 +34,9 @@ body {
     background-color: rgb(60, 75, 51) !important;
 }
 
+a {
+    color: rgb(47, 117, 0);
+}
 
 #showcase {
 	background-image: url('images/contact-bg.jpg');
@@ -60,4 +63,5 @@ footer a {
     .navbar-expand-lg .navbar-collapse {
        justify-content: flex-end;
     }
+
 }
