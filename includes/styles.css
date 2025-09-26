@@ -1,0 +1,63 @@
+.nav-link {
+    margin-left: 1em;
+    color: rgb(175, 192, 165);
+}
+
+.navbar {
+    --bs-navbar-brand-color: rgb(175, 192, 165);
+    --bs-navbar-brand-hover-color: rgb(175, 192, 165);
+    --bs-navbar-active-color: rgb(241, 231, 216);
+    --bs-navbar-color: rgb(83, 99, 73);
+    --bs-navbar-hover-color: rgb(241, 231, 216);
+}
+
+nav {
+    text-shadow: 2px 2px rgb(27, 34, 23);
+}
+
+.offcanvas {
+    --bs-offcanvas-color: rgb(175, 192, 165);
+    --bs-offcanvas-bg: rgb(60, 75, 51);
+}
+
+body {
+    background-color: rgb(241, 231, 216);
+    color: rgb(14, 29, 0);
+    font-family: "Reddit Sans", sans-serif;
+}
+
+.p-2 {
+    padding: 1rem !important;
+}
+
+.bg-body-tertiary {
+    background-color: rgb(60, 75, 51) !important;
+}
+
+
+#showcase {
+	background-image: url('images/contact-bg.jpg');
+	background-position: center;
+    background-size: cover;
+}
+
+#contact {
+	background-color: rgb(60, 75, 51);
+    color: rgb(175, 192, 165);
+    text-shadow: 2px 2px rgb(27, 34, 23);
+}
+
+#portfolio {
+    background-color: rgb(229, 213, 188);
+}
+
+footer a {
+    color: rgb(175, 192, 165);
+}
+
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+       justify-content: flex-end;
+    }
+}
